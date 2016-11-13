@@ -8,7 +8,7 @@ lazy val module1 = (project in file("module1")).
     settings(commonSettings: _*).
     settings(
         libraryDependencies ++= Seq(
-            "org.apache.spark" %% "spark-core" % "1.6.1"
+            "org.apache.spark" % "spark-core" % "1.6.1"
         )
 //        libraryDependencies += "org.apache.spark" %% "spark-core" % "1.6.1"
     )
